@@ -1,0 +1,49 @@
+{
+  "best_global_step": 100,
+  "best_metric": 0.59105384349823,
+  "best_model_checkpoint": "/Workspace/datathon/pingpong_club_epoch/AutogluonModels/dark-ember-57/models/Chronos2SmallFineTuned/W0/checkpoint-100",
+  "epoch": 0.1,
+  "eval_steps": 100,
+  "global_step": 100,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.1,
+      "grad_norm": 0.360522985458374,
+      "learning_rate": 9.01e-06,
+      "loss": 0.1684,
+      "step": 100
+    },
+    {
+      "epoch": 0.1,
+      "eval_loss": 0.59105384349823,
+      "eval_runtime": 0.1566,
+      "eval_samples_per_second": 1264.635,
+      "eval_steps_per_second": 44.709,
+      "step": 100
+    }
+  ],
+  "logging_steps": 100,
+  "max_steps": 1000,
+  "num_input_tokens_seen": 0,
+  "num_train_epochs": 9223372036854775807,
+  "save_steps": 100,
+  "stateful_callbacks": {
+    "TrainerControl": {
+      "args": {
+        "should_epoch_stop": false,
+        "should_evaluate": false,
+        "should_log": false,
+        "should_save": true,
+        "should_training_stop": false
+      },
+      "attributes": {}
+    }
+  },
+  "total_flos": 0.0,
+  "train_batch_size": 32,
+  "trial_name": null,
+  "trial_params": null
+}
